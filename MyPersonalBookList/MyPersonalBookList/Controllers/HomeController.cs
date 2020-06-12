@@ -23,7 +23,22 @@ namespace MyPersonalBookList.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Read()
+        {
+            return View();
+        }
+
+        public IActionResult Reading()
+        {
+            return View();
+        }
+
+        public IActionResult Unread()
+        {
+            return View();
+        }
+
+        public IActionResult Reports()
         {
             return View();
         }
